@@ -154,7 +154,7 @@ git clone https://github.com/Yangget/garbage_classify.git
 
   The data set is an extension of Huawei's cloud waste classification data. It is sourced from the Internet. The organizer is an undergraduate student at Northeast Forestry University. Please download it in this [repository](ihub.com/Yangget/garbage_classify_expand/tree/master).
 
-+ Run
++ Run(this code is running locally)
 ```shell
 python run.py --data_url='../datasets/garbage_classify/train_data' --train_url='./model_snapshots' --deploy_script_path='./deploy_scripts'
 ```
