@@ -169,4 +169,4 @@ python run.py --mode=eval --eval_pb_path='../model_snapshots/model' --test_data_
 
 ## Impression
 
-The game is coming to an end. Through this competition, I have not only enhanced my ability in algorithms and programming, but also have more contact and deeper understanding of image classification algorithms. I also realized the challenge of garbage classification to humans. Thank you very much for this very meaningful game organized by Huawei Cloud.
+The game is coming to an end. Through this competition,as a third-year undergraduate classmate,I have not only enhanced my ability in algorithms and programming, but also have more contact and deeper understanding of image classification algorithms. I also realized the challenge of garbage classification to humans. Thank you very much for this very meaningful game organized by Huawei Cloud.
