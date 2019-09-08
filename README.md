@@ -152,7 +152,7 @@ git clone https://github.com/Yangget/garbage_classify.git
 + Download the [data set](https://modelarts-competitions.obs.cn-north-1.myhuaweicloud.com/garbage_classify/dataset/garbage_classify_v2.zip) in the same directory
 + Download my extended dataset and the original dataset,The list of supplementary data is as follows:
 
-  The data set is an extension of Huawei's cloud waste classification data. It is sourced from the Internet. The organizer is an undergraduate student at Northeast Forestry University. Please download it in this [repository](ihub.com/Yangget/garbage_classify_expand/tree/master).
+  The data set is an extension of Huawei's cloud waste classification data. It is sourced from the Internet. The organizer is an undergraduate student at Northeast Forestry University. Please download it in this [repository](https://github.com/Yangget/garbage_classify_expand).
 
 + Run(this code is running locally)
 ```shell
