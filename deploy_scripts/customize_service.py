@@ -119,7 +119,7 @@ class garbage_classify_service(TfServingBaseService):
         """
         img = data[self.input_key_1]
         img = img[np.newaxis, :, :, :]  # the input tensor shape of resnet is [?, 224, 224, 3]
-        img /= 255.
+        img = img.astype(np.float32) / 225
         mean = [0.485, 0.456, 0.406]
         std = [0.229, 0.224, 0.225]
 
