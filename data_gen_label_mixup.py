@@ -110,10 +110,11 @@ class BaseSequence(Sequence):
         :param batch_y: 要mixup的batch_y
         :return: mixup后的数据
         """
-        l = np.random.beta(self.alpha, self.alpha, self.batch_size)
+        size = self.batch_size[0]
+        l = np.random.beta(self.alpha, self.alpha, size)
 
-        X_l = l.reshape(self.batch_size, 1, 1, 1)
-        y_l = l.reshape(self.batch_size, 1)
+        X_l = l.reshape(size, 1, 1, 1)
+        y_l = l.reshape(size, 1)
 
         X1 = batch_x
         Y1 = batch_y
